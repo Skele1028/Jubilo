@@ -113,7 +113,7 @@ button:active {
 #button-start{
     width: 10em;
     height: 10em;
-    margin:  0 10rem;
+    margin:  0 15%;
     border: none;
     background-color: transparent;
     background-image: url('../Images/Button1.png');
