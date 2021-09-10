@@ -97,7 +97,7 @@ async function init1() {
     } catch (e) {
         //errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
         console.log("An error occured! " + e);
-        alert('Es necesario que brindes acceso a la cámara de tu dispositivo para poder interactuar. Utiliza el ícono de candado que esta junto a la url para poder brindar los permisos necesarios.');
+        alert('Es necesario que brindes acceso a la cámara de tu dispositivo para poder interactuar. Utiliza el ícono de candado que esta junto a la url para poder brindar los permisos necesarios. -- No sirve es solo una advertencia x att DD');
     }
 
     
