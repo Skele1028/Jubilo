@@ -128,7 +128,7 @@ function setSizeTo720p(){
 }
 
 function init(){
-    /*if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         navigator.mediaDevices.getUserMedia (constraints)
             .then(function(stream) {
                 handleSuccess(stream);
@@ -137,14 +137,14 @@ function init(){
 
             // Error callback
             .catch(function(err) {
-                alert('Es necesario que brindes acceso a la cámara de tu dispositivo para poder interactuar. Utiliza el ícono de candado que esta junto a la url para poder brindar los permisos necesarios.');
+                alert('Es necesario que brindes acceso a la cámara de tu dispositivo para poder interactuar. Utiliza el ícono de candado que esta junto a la url para poder brindar los permisos necesarios. -- No sirve es solo una advertencia x att DD');
             }
         );
     } else {
         alert('getUserMedia no es soportado en tu navegador!');
-    }*/
+    }
 
-    navigator.getMedia = ( navigator.getUserMedia ||
+    /*navigator.getMedia = ( navigator.getUserMedia ||
                         navigator.webkitGetUserMedia ||
                         navigator.mozGetUserMedia ||
                         navigator.msGetUserMedia);
@@ -171,7 +171,7 @@ function init(){
             console.log("An error occured! " + err);
             alert('Es necesario que brindes acceso a la cámara de tu dispositivo para poder interactuar. Utiliza el ícono de candado que esta junto a la url para poder brindar los permisos necesarios.');
         }
-    );
+    );*/
 
     var streaming = false;
     video.addEventListener('canplay', function(ev){
